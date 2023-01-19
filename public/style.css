@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(90deg, #56ab2f , #a8e063);
+}
+
+.box {
+  border: 2px solid #909090;
+  border-radius: 6px;
+  padding: 50px;
+  width: 400px;
+  text-align: center;
+  background: linear-gradient(90deg, #141e30 , #243b55);
+  color: #fafafa;
+}
+
+.box h1 , .box p{
+  font-size: 30px;
+  margin: 5px auto 15px auto;
+  font-weight: 600;
+}
+
+.box p {
+  font-size: 36px;
+  margin: 15px auto;
+}
+
+.btn {
+  background-color: transparent;
+  padding: 12px 20px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  border: none;
+  transition-duration: 0.2s;
+  color: #fff;
+}
+
+.btn:hover {
+  transform: scale(1.1);
+}
+
+.btnAdd {
+  background-color: green;
+}
+
+.btnReset {
+  background-color: gold;
+  margin: 0 10px;
+  color: #202200;
+}
+
+.btnDelete {
+  background-color: red;
+}
